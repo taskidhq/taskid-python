@@ -1,5 +1,5 @@
 from json import JSONEncoder
-from text import TextInput
+from .text_input import TextInput
 
 class TaskidJSONEncoder(JSONEncoder):
     def default(self, obj):
